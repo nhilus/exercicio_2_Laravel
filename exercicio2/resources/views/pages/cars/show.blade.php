@@ -1,0 +1,11 @@
+@extends('master.main')
+@section('content')
+    {{$car->id}}
+    {{$car->brand->brandName}}
+    {{$car->registration}}
+    {{$car->year_of_manufacture}}
+    {{$car->color}}
+    {{$car->owner->name}}
+    {{$car->created_at}}
+    {{$car->updated_at}}
+@endsection
